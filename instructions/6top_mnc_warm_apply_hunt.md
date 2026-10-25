@@ -7,7 +7,7 @@ Tracking sheet: see `config/me.md` (tabs: Applications, Contacts, Replied Came D
 This hunt is separate from Hunt 0 / 1 / 4 / 5. Do not edit other hunt markdown files. Do not run normal Hunt 1 self-apply for these five companies while a row is in **Warm Pending**.
 
 ## Browser
-Use Claude in Chrome only (my real Chrome through the Claude extension, `mcp__claude-in-chrome__*`), where Google, LinkedIn and Gmail are already signed in. Never use the Claude Browser pane (`mcp__Claude_Browser__*`), Cursor's browser, or Playwright. Login, OTP, or CAPTCHA means Needs Login. Never type passwords.
+In Antigravity, use the Playwright MCP browser tools (`browser_*`). In Claude Code, use Claude in Chrome (`mcp__claude-in-chrome__*`). Use the signed-in session for Google, LinkedIn, and Gmail. Login, OTP, or CAPTCHA means Needs Login. Never type passwords.
 
 ## Scope — Top 5 only (hard lock)
 Work **only** these companies. No others in this hunt.

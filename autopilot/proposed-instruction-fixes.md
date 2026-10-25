@@ -34,3 +34,11 @@ Hunt files stay as written until the user accepts a change. If a hunt file itsel
   - Pay threshold adjusted to 3 LPA floor when stated (keep when unstated), and aligned Profile template 'Minimum pay to apply'.
   - Second LinkedIn connection target updated to include senior data scientists, ML engineers, and data leads.
 - Applied: Hunt files updated accordingly.
+
+
+## 2026-10-25 — all hunt files & AGENTS.md — Antigravity support via Playwright MCP (applied locally)
+- Evidence: User is running in Google Antigravity. Previous instructions strictly mandated Claude in Chrome (`mcp__claude-in-chrome__*`) and banned Playwright, which prevented Antigravity from running hunts with its native Playwright MCP browser tools.
+- Change:
+  - AGENTS.md, README.md, and all hunt files updated to explicitly support Antigravity via Playwright MCP (`browser_*` tools) while keeping Claude Code support intact.
+  - Job hunt browser skill updated to reference Antigravity's Playwright tools.
+- Applied: Local update applied without committing/pushing per user request.

@@ -5,7 +5,7 @@ This hunt **finds and applies** on job boards and company career sites **outside
 Do not edit `0find_latest_jobs_hunt.md`, `1apply_find_send_connection_req_hunt.md`, `2linked_in_accepted_hunt.md`, `3reply_hunt_linkedin.md`, or `4linkedin_jobs_find_apply_hunt.md`.
 
 ## Browser
-Use Claude in Chrome only (my real Chrome through the Claude extension, `mcp__claude-in-chrome__*`), where Google, LinkedIn and Gmail are already signed in. Never use the Claude Browser pane (`mcp__Claude_Browser__*`), Cursor's browser, or Playwright. Login, OTP, or CAPTCHA means Needs Login. Never type passwords.
+In Antigravity, use the Playwright MCP browser tools (`browser_*`). In Claude Code, use Claude in Chrome (`mcp__claude-in-chrome__*`). Use the signed-in session for Google, LinkedIn, and Gmail. Login, OTP, or CAPTCHA means Needs Login. Never type passwords.
 
 ## LinkedIn (delegate — do not duplicate Hunt 4)
 - **Do not** run LinkedIn Jobs searches, hiring-post scrolls, Easy Apply, or post/email apply in this hunt.

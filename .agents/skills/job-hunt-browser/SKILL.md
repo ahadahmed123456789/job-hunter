@@ -1,13 +1,11 @@
 ---
 name: job-hunt-browser
-description: Drive job applications, Google Sheets logging, and LinkedIn outreach with Cursor's built-in browser. Use when applying to jobs, filling ATS forms, sending LinkedIn connection requests, or updating the job-hunter tracking sheet.
+description: Drive job applications, Google Sheets logging, and LinkedIn outreach with Antigravity (Playwright MCP) or browser tools. Use when applying to jobs, filling ATS forms, sending LinkedIn connection requests, or updating the job-hunter tracking sheet.
 ---
 
 # Job-hunt browser
 
-Use Cursor's built-in browser (`cursor-ide-browser`). Playwright is removed. Do not attach to the user's Chrome.
-
-The built-in browser is not logged into the user's Chrome. Login, OTP, or CAPTCHA means Needs Login. Never type or store passwords.
+In Antigravity, use Playwright MCP tools (`browser_*`) connected to the signed-in browser session. Login, OTP, or CAPTCHA means Needs Login. Never type or store passwords.
 
 ## Resume
 

@@ -1,6 +1,6 @@
 # Job hunter
 
-AI-agent playbooks that find jobs, apply, and run referral outreach on LinkedIn, logging everything in Google Sheets. Works with Claude Code, Cursor or Codex driving your real Chrome through the Claude in Chrome extension.
+AI-agent playbooks that find jobs, apply, and run referral outreach on LinkedIn, logging everything in Google Sheets. Works with Antigravity (using Playwright MCP), Claude Code (using Claude in Chrome), Cursor or Codex.
 
 `AGENTS.md` is the runbook every agent follows. The hunts live in `instructions/`:
 
@@ -24,7 +24,7 @@ Type `hunt` in your agent and it runs the next unfinished step (see `AGENTS.md`)
 2. **Fill in your config.** Copy `config/me.example.md` to `config/me.md` and fill in every value: both sheet links, the Applications and Contacts tab gids (the number after `gid=` in the URL when that tab is open), resume path, your name and one-line pitch, resume highlights, existing referrals, standard answers.
 3. **Resume.** Put a copy of your resume at `.job-hunter-output/resume/<file>.pdf` (the browser upload tool reads from the project folder).
 4. **Autopilot state.** Copy `autopilot/state.example.json` to `autopilot/state.json`.
-5. **Browser.** Install the Claude in Chrome extension and sign in to Google, LinkedIn and Gmail in that Chrome. Agents never type passwords; any login, OTP or CAPTCHA stops the run.
+5. **Browser.** In Antigravity, ensure Playwright MCP is connected. In Claude Code, install the Claude in Chrome extension. Sign in to Google, LinkedIn and Gmail. Agents never type passwords; any login, OTP or CAPTCHA stops the run.
 
 ## What is shared vs personal
 

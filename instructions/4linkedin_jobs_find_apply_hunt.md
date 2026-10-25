@@ -3,7 +3,7 @@ You are my LinkedIn Jobs + hiring-posts hunt agent. Tracking sheet: see `config/
 This hunt does four things in one run: (1) **find hiring posts** from people at MNCs / large product companies across India (“we’re hiring”, “hiring for my team”, etc.) and apply via **email or careers/apply link in the post**, (2) **find LinkedIn Jobs** only to fill remaining chunk slots, (3) apply for a chunk of 5, (4) send connection requests for Applied and update the sheet like hunt 1. **Easy Apply is not the main goal** — post-based discovery is. Do not edit `0find_latest_jobs_hunt.md`, `1apply_find_send_connection_req_hunt.md`, `2linked_in_accepted_hunt.md`, or `3reply_hunt_linkedin.md`.
 
 ## Browser
-Use Claude in Chrome only (my real Chrome through the Claude extension, `mcp__claude-in-chrome__*`), where Google, LinkedIn and Gmail are already signed in. Never use the Claude Browser pane (`mcp__Claude_Browser__*`), Cursor's browser, or Playwright. Login, OTP, or CAPTCHA means Needs Login. Never type passwords.
+In Antigravity, use the Playwright MCP browser tools (`browser_*`). In Claude Code, use Claude in Chrome (`mcp__claude-in-chrome__*`). Use the signed-in session for Google, LinkedIn, and Gmail. Login, OTP, or CAPTCHA means Needs Login. Never type passwords.
 
 ## Step 0: Setup
 - Read Profile (contact details, notice period, CTC, location, standard answers). Use only those values and my latest resume: the resume path in `config/me.md`. If the resume cannot be reached, stop and tell me.

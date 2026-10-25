@@ -1,6 +1,6 @@
 # Job hunter — agent runbook
 
-Any AI agent (Claude Code, Cursor, Codex) runs this project the same way. The hunt files in `instructions/` are the rules. This file only says how to drive them.
+Any AI agent (Antigravity, Claude Code, Cursor, Codex) runs this project the same way. The hunt files in `instructions/` are the rules. This file only says how to drive them.
 
 ## The word `hunt`
 `hunt` starts the next unfinished work. Do not ask which hunt.
@@ -17,7 +17,7 @@ Any AI agent (Claude Code, Cursor, Codex) runs this project the same way. The hu
 - Nothing due → Hunt 0 next chunk of 5 companies.
 
 ## Browser
-Every hunt uses **Claude in Chrome only** (`mcp__claude-in-chrome__*`): the user's real Chrome, where Google, LinkedIn and Gmail are signed in. Never use the Claude Browser pane (`mcp__Claude_Browser__*`), Cursor's browser, or Playwright. Public job-board APIs may also be read with curl (see `autopilot/lessons.md`). Login, OTP, CAPTCHA, or account creation = Needs Login: leave the tab, log it, move on. Never type passwords.
+For **Antigravity**, use the built-in **Playwright MCP** (`browser_*` tools) connected to the browser where Google, LinkedIn, and Gmail are signed in. For **Claude Code**, use `mcp__claude-in-chrome__*`. Public job-board APIs may also be read with curl (see `autopilot/lessons.md`). Login, OTP, CAPTCHA, or account creation = Needs Login: leave the tab, log it, move on. Never type passwords.
 
 ## Data
 - Every personal value lives in `config/me.md`: tracking sheet (Applications, Contacts, Replied Came Details, Profile, Sheet1), companies list (Hunt 0 source), resume path, name and pitch for messages, existing referrals, standard answers. Read it at the start of every run. If it is missing, stop and ask the user to copy `config/me.example.md` to `config/me.md` and fill it in (see README.md).

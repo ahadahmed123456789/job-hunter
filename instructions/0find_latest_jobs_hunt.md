@@ -6,7 +6,7 @@ Companies list (ONLY job source, this is the DB): see `config/me.md`
 This run only FINDS jobs. Do not apply. Do not send LinkedIn requests. Do not message anyone. Do not edit `1apply_find_send_connection_req_hunt.md`, `2linked_in_accepted_hunt.md`, `3reply_hunt_linkedin.md`, or `4linkedin_jobs_find_apply_hunt.md`.
 
 ## Browser
-Use Claude in Chrome only (my real Chrome through the Claude extension, `mcp__claude-in-chrome__*`), where Google, LinkedIn and Gmail are already signed in. Never use the Claude Browser pane (`mcp__Claude_Browser__*`), Cursor's browser, or Playwright. Login, OTP, or CAPTCHA means Needs Login. Never type passwords.
+In Antigravity, use the Playwright MCP browser tools (`browser_*`). In Claude Code, use Claude in Chrome (`mcp__claude-in-chrome__*`). Use the signed-in session for Google, LinkedIn, and Gmail. Login, OTP, or CAPTCHA means Needs Login. Never type passwords.
 
 ## Source
 - Read the companies list sheet. Use each row's Careers link.
