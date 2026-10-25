@@ -25,14 +25,14 @@ For every Contacts row where Connection Status is "Accepted" or "Already Connect
 Template for Recruiter / Talent Acquisition:
 "Hi {FirstName}, thank you for connecting. I'm {MyFirstName}, {MyPitch}. I'm interested in the {Role} role at {Company} ({JobLink}). I have not applied on the public careers site yet because your company may use an employee referral process. {CompanyLine} If referrals go through your team, could you let me know whether my profile fits, or point me to the right person? I'm happy to share my resume. Thank you for your time."
 
-Template for Senior Dev / Eng Manager / Data Science Lead:
+Template for Data Science Lead / Senior ML Engineer / Analytics Manager:
 "Hi {FirstName}, thank you for connecting. I'm {MyFirstName}, {MyPitch}. I'm interested in the {Role} role at {Company} ({JobLink}) and have held off self-applying in case you use internal employee referrals. {CompanyLine} If you can refer or submit through your referral portal, I would be grateful. If not, I'll apply on the careers page myself. Happy to share my resume. Thank you for your time."
 
 ### After apply (Applications = Applied)
 Template for Recruiter / Talent Acquisition:
 "Hi {FirstName}, thank you for connecting. I'm {MyFirstName}, {MyPitch}. I have applied for the {Role} position at {Company} ({JobLink}) and wanted to introduce myself properly. {CompanyLine} If the role is still open, could you let me know whether my profile fits, or point me to the right person on the hiring team? I'm happy to share my resume. Thank you for your time."
 
-Template for Senior Dev / Eng Manager / Data Science Lead:
+Template for Data Science Lead / Senior ML Engineer / Analytics Manager:
 "Hi {FirstName}, thank you for connecting. I'm {MyFirstName}, {MyPitch}. I have applied for the {Role} position at {Company} ({JobLink}). {CompanyLine} If you feel my background is a fit, I would be grateful for a referral, or an introduction to someone on the team who is looking for engineers. I'm happy to share my resume. Thank you for your time."
 
 Style rules: warm, short and professional, never pushy. No em dashes. No emojis. No claims beyond my resume. If {JobLink} is blank, drop that bracket and say "through the careers page" or "on your careers site" as appropriate.

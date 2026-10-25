@@ -136,7 +136,7 @@ Date, Company, Role, Job Link (hiring-post URL **preferred**, else LinkedIn job 
 ## Step 3: Find people on LinkedIn (Referral Pending + Applied in this chunk)
 For each Applied company/post company, find exactly 2 people, India-based where possible:
 - Person 1: recruiter / talent acquisition for engineering (prefer the poster if they are TA and not already in Contacts)
-- Person 2: senior software engineer, staff engineer, or engineering manager
+- Person 2: senior data scientist, ML engineer, lead analyst, or data science/analytics manager
 
 Verify current employer. Skip Contacts + Sheet1. Prefer 2nd-degree.
 

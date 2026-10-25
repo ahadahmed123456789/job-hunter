@@ -51,9 +51,9 @@ If tier is ambiguous but the brand is clearly a large MNC → KEEP at the **lowe
 
 ## Resume match + role gates (KEEP only if ALL are true)
 Same spirit as Hunts 0, 1, and 4:
-- **Role** that fits Data Science / Data Analyst / Machine Learning / AI / Python Developer / Graduate SWE strictly for freshers (0 experience).
+- **Role** is strictly in the **DATA SCIENCE** domain: Data Analyst, Data Scientist, Machine Learning Engineer (ML Eng), AI / NLP Engineer, Business Intelligence Analyst, or Data Science / ML Intern. Work mode: Full-time, Internship, or Work From Home / Remote. (DROP general software engineering / SWE / SDE / web dev).
 - **Experience** asked: strictly Fresher / Intern / 0 years experience required / College Graduate. DROP any role requiring 1+ years of prior full-time experience.
-- **Pay**, if stated: not under **3 LPA** (India) or equivalent entry-level minimum. If unclear or not stated, KEEP and note `pay not verified`.
+- **Pay**, if stated: not under **3 LPA** (India) or equivalent entry-level minimum (internship stipends acceptable). If unclear or not stated, KEEP and note `pay not verified`.
 - Live posting (not expired), official or reputable board listing; link not already in Applications.
 - **Not** suspicious (fees, crypto, vague “pay to apply”, obvious scam).
 
@@ -92,17 +92,18 @@ Use **multiple platforms** until the chunk is full. Dedupe by **canonical job UR
 **Within each platform:** run Tier A searches first (company name + role keywords, or filter by known employers), then B → C → D only as needed. Do **not** fill the chunk with Tier D while Tier A/B still have untried KEEP matches on that platform.
 
 1. **Indeed** (use **indeed.com**, **uk.indeed.com**, **ca.indeed.com**, **de.indeed.com**, etc. as needed): keywords below + **visa sponsorship** / **relocation** + company names from Tier A→B first; location **Worldwide / Remote** and major hubs (**United States**, **United Kingdom**, **Canada**, **Germany**, **Singapore**, **UAE**, **Australia**) **before** India-only passes. Open full JD; confirm sponsorship/relocation for abroad roles; go to **company apply** when offered.
-2. **Official MNC `/careers` pages** (Tier A→B first: Google, Amazon, Microsoft, Meta, Apple, etc.): filter by location or search `software engineer` + read sponsorship/mobility FAQ if linked from JD. Prefer this over aggregators when hunting global roles.
+2. **Official MNC `/careers` pages** (Tier A→B first: Google, Amazon, Microsoft, Meta, Apple, etc.): filter by location or search `data analyst` OR `data scientist` OR `machine learning intern` + read sponsorship/mobility FAQ if linked from JD. Prefer this over aggregators when hunting global roles.
 3. **Naukri**: **international / overseas** + known MNC employers only; India MNC roles only to fill remaining attempts. Full JD → company apply when offered.
 4. **Glassdoor**, **Instahyre**, **Cutshort**, **Hirist** (India tech): same MNC + tier + **global sponsorship** gates; company apply preferred. Skip listings that are clearly startups or unknown SMEs.
 5. **Do not use Wellfound / AngelList Talent** as a primary source (startup-heavy). Only open a Wellfound link if it redirects to a clear Tier A–D MNC careers apply — otherwise skip.
 
 **Search keywords** (run several; adjust per platform UI):
-- `Data Scientist`, `Data Analyst`, `Machine Learning Engineer`, `Data Science Intern`, `Python Developer`, `Graduate Engineer Trainee`
-- `Python`, `SQL`, `Machine Learning`, `Scikit-learn`, `NLP`, `Power BI` (combine with role titles)
+- `Data Scientist`, `Data Analyst`, `Machine Learning Engineer`, `Data Science Intern`, `Data Analytics Intern`, `ML Intern`, `BI Analyst`
+- `Python`, `SQL`, `Machine Learning`, `Scikit-learn`, `NLP`, `Power BI`, `Pandas` (combine with role titles)
+- Combine with **work types**: `Remote`, `Work From Home`, `Internship`, `Full-time`, `Fresher`, `Graduate`
 - Combine with **employer names** from the current tier (e.g. `Data Scientist Microsoft`, `Data Analyst Amazon`, `Machine Learning Intern Google`) when the UI has no company filter
 - Add `remote`, `visa sponsorship`, `relocation`, `international`, `global mobility` when the platform supports it in query or filters
-- Example global queries: `Amazon data scientist visa sponsorship`, `Microsoft data analyst relocation`, `Google machine learning intern`
+- Example global queries: `Amazon data analyst internship`, `Microsoft data scientist remote`, `Google machine learning intern`
 
 **Service-level / careers depth (required):**
 - From a board listing, **open the full JD**, then the **employer’s apply path** (Greenhouse, Lever, Workday, Ashby, company `/careers/` job ID, etc.).

@@ -51,3 +51,13 @@ Hunt files stay as written until the user accepts a change. If a hunt file itsel
   - DROP rule updated to explicitly discard any job requiring 1+ years of prior full-time experience.
   - LinkedIn search filters constrained to Internship / Entry level only.
 - Applied: Hunt files and templates updated accordingly.
+
+
+## 2026-10-26 — all hunt files & config — Strict DATA SCIENCE ONLY focus (applied, user request)
+- Evidence: User instructed that applications must NOT be made for general software development / SDE / SWE / web dev roles. Focus must strictly be on DATA SCIENCE domain roles: Data Analyst, Data Scientist, Machine Learning Engineer (ML Eng), AI/NLP, BI Analyst, Data Science / ML Interns.
+- Work types: Open to Full-Time, Internship, and Work From Home / Remote opportunities with strictly 0 experience required (drop any role requiring 1+ years).
+- Change:
+  - All hunt files (0, 1, 4, 5, 6) updated to restrict KEEP gates to Data Science domain roles only, and explicitly DROP general software/SDE/web dev.
+  - Search queries across LinkedIn and global platforms updated to combine Data Science keywords with internship, remote, WFH, and fresher filters.
+  - Template companies list and config/me.md updated to reflect Data Science focus and explicitly exclude general software engineering.
+- Applied: Instruction files and config updated.
