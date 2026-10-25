@@ -12,7 +12,7 @@ Use Claude in Chrome only (my real Chrome through the Claude extension, `mcp__cl
 Below the line "JOB LIST" I will paste the results from my daily hunters. For each job:
     - Skip it if the job link already exists in Applications.
     - Open the company's official careers/ATS page for the same role. Prefer that over LinkedIn/Naukri.
-    - Skip and log the reason ("Skipped" + reason) if: the posting is expired or the link is broken, it needs more than about 3 years of experience, stated pay is under 12 LPA (if pay is not stated, continue and note "pay not stated"; confirm it with the recruiter), the company or posting looks suspicious (any payment or fee request, no official careers page), or it is not a software role that fits a full stack / frontend / backend engineer with 2+ years.
+    - Skip and log the reason ("Skipped" + reason) if: the posting is expired or the link is broken, it asks for 3+ years of experience (senior/lead), stated pay is under 3 LPA (if pay is not stated, continue and note "pay not stated"; confirm it with the recruiter), the company or posting looks suspicious (any payment or fee request, no official careers page), or it is not a role that fits an entry-level / fresher Data Scientist, Data Analyst, Machine Learning Engineer, or Python developer (0-2 years).
 
 ## Step 1B: Referral-first gate (before any ATS submit)
 Referrals come from **LinkedIn connections** (and hiring emails we discover on posts/JDs). Many MNCs use an **employee referral / iRefer / “refer a candidate”** flow where the **employee submits** (or completes) the application on the candidate’s behalf — the candidate must **not** duplicate-apply on the public careers form first.
@@ -39,7 +39,7 @@ For each job on **Self-apply** path (or Referral-first jobs where referral faile
 ## Step 3: Find people on LinkedIn (Referral Pending + Applied)
 Using my logged-in LinkedIn, find exactly 2 people at that company, India-based where possible:
 - Person 1: a recruiter or talent acquisition person who hires for engineering (search "[Company] technical recruiter", "[Company] talent acquisition India"). Prefer people who recently posted about hiring.
-- Person 2: a senior software engineer, staff engineer or engineering manager, ideally on the team that owns this role.
+- Person 2: a senior data scientist, ML engineer, senior software engineer, or engineering/data manager, ideally on the team that owns this role.
 Verify each profile currently shows that company as the present employer. Skip anyone already in the Contacts tab. Prefer 2nd-degree connections.
 
 ## Per-job order (do not skip)

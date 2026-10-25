@@ -21,8 +21,8 @@ Use Claude in Chrome only (my real Chrome through the Claude extension, `mcp__cl
 - Stop when the 5 companies are done, even if you kept 0 jobs. Do not research the rest of the list.
 
 ## Keep or drop
-KEEP: live official posting, India or remote-India, full stack / frontend / backend / SDE / SWE, about 3 years or less.
-DROP: expired, 4+ years / senior / staff / lead, pay stated under 12 LPA, not software, suspicious.
+KEEP: live official posting, India or remote-India, Data Science / Data Analyst / Machine Learning / AI / Python Developer / Entry-level SWE or SDE (suitable for freshers/entry-level/graduates), 0 to 2 years / fresher / intern / entry-level.
+DROP: expired, 3+ years / senior / staff / lead, pay stated under 3 LPA, not relevant to data/software, suspicious.
 If pay is not on the official page, still KEEP and write "not stated on official page". Do not invent pay.
 
 ## Output

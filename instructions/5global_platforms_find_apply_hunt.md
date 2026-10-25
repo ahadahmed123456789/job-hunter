@@ -51,9 +51,9 @@ If tier is ambiguous but the brand is clearly a large MNC → KEEP at the **lowe
 
 ## Resume match + role gates (KEEP only if ALL are true)
 Same spirit as Hunts 0, 1, and 4:
-- **Software role** that fits a full stack / frontend / backend / SDE / SWE profile with my **~2+ years** (Profile + resume).
-- **Experience** asked is **about 3 years or less**. DROP 4+ years / senior / staff / lead / principal unless the JD clearly allows ~0–3 or “2+ years”.
-- **Pay**, if stated: not under **12 LPA** (India) or an equivalent that is clearly below my minimum (Profile: expected ~12+ LPA). Foreign currency: convert roughly; if unclear, KEEP and note `pay not verified`.
+- **Role** that fits Data Science / Data Analyst / Machine Learning / AI / Python Developer / Entry-level SWE (fresher / 0-2 years profile).
+- **Experience** asked: Fresher / Entry level / 0-2 years. DROP 3+ years / senior / staff / lead / principal unless JD clearly allows entry-level/fresher.
+- **Pay**, if stated: not under **3 LPA** (India) or equivalent entry-level minimum. If unclear or not stated, KEEP and note `pay not verified`.
 - Live posting (not expired), official or reputable board listing; link not already in Applications.
 - **Not** suspicious (fees, crypto, vague “pay to apply”, obvious scam).
 
@@ -98,11 +98,11 @@ Use **multiple platforms** until the chunk is full. Dedupe by **canonical job UR
 5. **Do not use Wellfound / AngelList Talent** as a primary source (startup-heavy). Only open a Wellfound link if it redirects to a clear Tier A–D MNC careers apply — otherwise skip.
 
 **Search keywords** (run several; adjust per platform UI):
-- `Software Engineer`, `Full Stack Developer`, `Backend Engineer`, `Frontend Engineer`, `SDE`, `SWE`
-- `Node.js`, `React`, `TypeScript` (combine with engineer titles)
-- Combine with **employer names** from the current tier (e.g. `Software Engineer Microsoft`, `SDE Amazon`, `Full Stack Accenture`) when the UI has no company filter
+- `Data Scientist`, `Data Analyst`, `Machine Learning Engineer`, `Data Science Intern`, `Python Developer`, `Graduate Engineer Trainee`
+- `Python`, `SQL`, `Machine Learning`, `Scikit-learn`, `NLP`, `Power BI` (combine with role titles)
+- Combine with **employer names** from the current tier (e.g. `Data Scientist Microsoft`, `Data Analyst Amazon`, `Machine Learning Intern Google`) when the UI has no company filter
 - Add `remote`, `visa sponsorship`, `relocation`, `international`, `global mobility` when the platform supports it in query or filters
-- Example global queries: `Amazon software engineer visa sponsorship`, `Microsoft SDE relocation`, `Accenture full stack international`
+- Example global queries: `Amazon data scientist visa sponsorship`, `Microsoft data analyst relocation`, `Google machine learning intern`
 
 **Service-level / careers depth (required):**
 - From a board listing, **open the full JD**, then the **employer’s apply path** (Greenhouse, Lever, Workday, Ashby, company `/careers/` job ID, etc.).

@@ -24,3 +24,13 @@ Hunt files stay as written until the user accepts a change. If a hunt file itsel
 - Why this is not a silent edit: it loosens an eligibility rule, so per AGENTS.md the user must decide.
 
 - Applied: Hunt 1 Step 1 now skips only when stated pay is under 12 LPA; unstated pay continues with note "pay not stated". Profile tab 'Minimum pay to apply' updated to match.
+
+
+## 2026-10-25 — all hunt files & templates — Fresher Data Science / ML / Analyst customization (applied, user request)
+- Evidence: User is a fresher targeting Data Science, Data Analytics, Machine Learning, and Python roles. Previous hunt instructions were hardcoded for 2+ years Full Stack / SDE roles and 12 LPA minimum floor, which would drop legitimate entry-level and fresher data roles.
+- Change:
+  - Hunt 0/1/4/5/6: Role gates updated to Data Science / Data Analyst / Machine Learning / AI / Python Developer / Entry-level SWE (0-2 years, fresher/intern/graduate). Drop 3+ years / senior / lead.
+  - Search queries and keywords updated in Hunts 4 & 5 to target Data Science, Machine Learning, Data Analytics, Python, and SQL roles.
+  - Pay threshold adjusted to 3 LPA floor when stated (keep when unstated), and aligned Profile template 'Minimum pay to apply'.
+  - Second LinkedIn connection target updated to include senior data scientists, ML engineers, and data leads.
+- Applied: Hunt files updated accordingly.

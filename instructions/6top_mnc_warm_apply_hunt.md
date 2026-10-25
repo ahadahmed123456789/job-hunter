@@ -35,7 +35,7 @@ Skip any company not in this table. Skip Sheet1 links. Never list or apply to a 
 ## Step 1 — Find the best-fit role (do not apply)
 For each Top-5 company that needs a new role (no open Warm Pending / Applied for a still-live fit):
 
-1. Open the official careers site (table above). Search for software roles that fit my resume: full stack / frontend / backend / SDE / SWE / Software Engineer, about **3 years or less**, India or remote-India when available; otherwise note location and keep only if relocation/visa is already covered in Profile.
+1. Open the official careers site (table above). Search for roles that fit my resume: Data Science / Data Analyst / Machine Learning Engineer / AI Engineer / Python Developer / Graduate SWE / Intern (0 to 2 years / fresher), India or remote-India when available; otherwise note location and keep only if relocation/visa is already covered in Profile.
 2. Rank candidates against the resume (real stack: "Stack to rank roles against" in `config/me.md`). Pick **the single best live posting** per company for this warm cycle (or 1 role if only one fits). Prefer open reqs with a clear team/product signal over vague “generalist” pools when both exist.
 3. DROP: expired, 4+ years / senior / staff / lead / principal, not software, pay under Profile floor when stated, suspicious, or duplicate of an Applications Job Link.
 4. Log Applications immediately **before** any LinkedIn work:
