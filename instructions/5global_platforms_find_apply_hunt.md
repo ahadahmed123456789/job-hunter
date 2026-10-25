@@ -51,8 +51,8 @@ If tier is ambiguous but the brand is clearly a large MNC → KEEP at the **lowe
 
 ## Resume match + role gates (KEEP only if ALL are true)
 Same spirit as Hunts 0, 1, and 4:
-- **Role** that fits Data Science / Data Analyst / Machine Learning / AI / Python Developer / Entry-level SWE (fresher / 0-2 years profile).
-- **Experience** asked: Fresher / Entry level / 0-2 years. DROP 3+ years / senior / staff / lead / principal unless JD clearly allows entry-level/fresher.
+- **Role** that fits Data Science / Data Analyst / Machine Learning / AI / Python Developer / Graduate SWE strictly for freshers (0 experience).
+- **Experience** asked: strictly Fresher / Intern / 0 years experience required / College Graduate. DROP any role requiring 1+ years of prior full-time experience.
 - **Pay**, if stated: not under **3 LPA** (India) or equivalent entry-level minimum. If unclear or not stated, KEEP and note `pay not verified`.
 - Live posting (not expired), official or reputable board listing; link not already in Applications.
 - **Not** suspicious (fees, crypto, vague “pay to apply”, obvious scam).

@@ -26,8 +26,8 @@ In Antigravity, use the Playwright MCP browser tools (`browser_*`). In Claude Co
 ## Gates (every job / every hiring post)
 KEEP only if ALL are true:
 - India or remote-India
-- Role that fits Data Science / Data Analyst / Machine Learning / AI / Python Developer / Entry-level SDE (fresher / 0-2 years profile)
-- Experience asked: Fresher / Entry-level / 0-2 years (drop 3+ / senior / staff / lead / principal unless JD clearly allows entry-level/fresher)
+- Strictly for Freshers / 0 experience / Interns / College Graduates: Data Science / Data Analyst / Machine Learning / AI / Python Developer / Graduate Trainee
+- Experience asked: strictly Fresher / 0 years / no prior experience required / intern / graduate. DROP any job requiring 1+ years of prior full-time experience (candidate has 0 experience).
 - Pay, if stated, is not under 3 LPA. If pay is not stated, still KEEP and note "pay not stated"
 - Apply path exists **in the job or in the post itself** (not comments): **Easy Apply**, OR **visible hiring email** (mailto / written `name@company.com`), OR **visible apply link** (e.g. `careers.*`, `jobs.*`, `*.greenhouse.io`, `*.lever.co`, `*.myworkdayjobs.com`, `amazon.jobs`, company `/careers/` or `/jobs/` URL, or a **LinkedIn job URL** pasted in the post). “Apply at …” / “Link:” / “Apply here:” in the post body counts.
 
@@ -64,7 +64,7 @@ Search with these defaults (adjust filters in the UI; do not invent results):
 - Keywords (run each; dedupe by job URL): `Data Scientist`, `Data Analyst`, `Machine Learning Engineer`, `Data Science Intern`, `Junior Data Analyst`, `Junior Data Scientist`, `ML Intern`, `Python Developer`, `Graduate Engineer Trainee`
 - Location: India (keep Remote India-eligible)
 - Date posted: Past week (or Past 24 hours if I say so in chat)
-- Experience: Internship / Entry level / Associate (fresher friendly)
+- Experience: Internship / Entry level only (strictly fresher / 0 experience; skip any role requiring 1+ years experience)
 - Easy Apply filter: optional — use when helpful; **not** required for this hunt
 - Prefer postings from known MNCs / product companies from the companies list
 

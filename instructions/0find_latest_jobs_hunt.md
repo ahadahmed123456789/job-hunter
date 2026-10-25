@@ -21,8 +21,8 @@ In Antigravity, use the Playwright MCP browser tools (`browser_*`). In Claude Co
 - Stop when the 5 companies are done, even if you kept 0 jobs. Do not research the rest of the list.
 
 ## Keep or drop
-KEEP: live official posting, India or remote-India, Data Science / Data Analyst / Machine Learning / AI / Python Developer / Entry-level SWE or SDE (suitable for freshers/entry-level/graduates), 0 to 2 years / fresher / intern / entry-level.
-DROP: expired, 3+ years / senior / staff / lead, pay stated under 3 LPA, not relevant to data/software, suspicious.
+KEEP: live official posting, India or remote-India, strictly for FRESHERS (0 experience required: fresh graduates, interns, trainees, or entry-level roles that explicitly require no prior full-time experience), Data Science / Data Analyst / Machine Learning / AI / Python Developer / Graduate SWE.
+DROP: expired, ANY role requiring 1+ years of prior full-time experience (candidate is a fresher with 0 experience), senior / staff / lead, pay stated under 3 LPA, not relevant to data/software, suspicious.
 If pay is not on the official page, still KEEP and write "not stated on official page". Do not invent pay.
 
 ## Output

@@ -42,3 +42,12 @@ Hunt files stay as written until the user accepts a change. If a hunt file itsel
   - AGENTS.md, README.md, and all hunt files updated to explicitly support Antigravity via Playwright MCP (`browser_*` tools) while keeping Claude Code support intact.
   - Job hunt browser skill updated to reference Antigravity's Playwright tools.
 - Applied: Local update applied without committing/pushing per user request.
+
+
+## 2026-10-25 — all hunt files & templates — Strict 0-experience fresher rule (applied, user request)
+- Evidence: User explicitly specified having 0 experience and instructed to only find and apply for fresher roles and drop any jobs requiring experience.
+- Change:
+  - Hunt 0/1/4/5/6: Gate updated from 0-2 years to strictly 0 experience / Fresher / Intern / College Graduate only.
+  - DROP rule updated to explicitly discard any job requiring 1+ years of prior full-time experience.
+  - LinkedIn search filters constrained to Internship / Entry level only.
+- Applied: Hunt files and templates updated accordingly.
