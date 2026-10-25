@@ -1,0 +1,18 @@
+# Personal data: each person keeps their own copy, never committed
+config/me.md
+autopilot/state.json
+autopilot/failures.jsonl
+logs/
+.job-hunter-output/
+instructions/profile-standard-answers.md
+
+# Machine-specific tool config
+.codex/
+.claude/settings.local.json
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+__pycache__/
+*.pyc

@@ -1,0 +1,24 @@
+{
+  "hooks": {
+    "sessionStart": [
+      {
+        "command": "node \"C:/Users/juned/.cursor/ponytail/hooks/ponytail-activate.js\"",
+        "timeout": 5
+      }
+    ],
+    "beforeSubmitPrompt": [
+      {
+        "command": "node \"C:/Users/juned/.cursor/ponytail/hooks/ponytail-mode-tracker.js\"",
+        "timeout": 5
+      }
+    ],
+    "stop": [
+      {
+        "command": "node .cursor/hooks/autopilot-stop.js",
+        "timeout": 10,
+        "loop_limit": 8
+      }
+    ]
+  },
+  "version": 1
+}

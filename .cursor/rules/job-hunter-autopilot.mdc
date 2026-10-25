@@ -1,0 +1,41 @@
+---
+description: Keep a started job hunt going, and remember fixes for the next run.
+alwaysApply: true
+---
+
+# Job-hunt autopilot
+
+The user will not sit here to approve each next step. Decide and continue. The word `hunt` starts the next unfinished work. Do not ask which hunt.
+
+## Every run, read from disk
+Before acting, re-read the hunt file for this step, `autopilot/state.json`, `autopilot/lessons.md`, and the tail of `autopilot/failures.jsonl`. Do not rely on an older chat copy.
+
+## When a hunt starts
+1. Set `state.json` to `"enabled": true`, `"continue": true`, `"hard_stop": ""`, and `"next"` to the step after the one you are about to do.
+2. Do the current step in this turn. Do not end by asking whether to proceed.
+
+## Queue (only if the hunt rules allow it)
+- Hunt 0 kept jobs → next is Hunt 1 on those jobs (referral-first gate before any submit).
+- Hunt 1 finished for the chunk → next is LinkedIn ×2 for Referral Pending / Applied rows that still need people. No DMs.
+- Accepts with Msg Count 0 → Hunt 2 first message, Next Action +2 days.
+- Msg Count 1, no reply, Msg 1 Date at least 2 days ago → Hunt 3 follow-up, then close.
+- A reply from them → log Replied Came Details, do not answer, clear next for that person.
+- Chunk done and nothing else is due → `"continue": false`, `"next": ""`.
+- Do not repeat an application or connection that the sheet already has.
+
+## When something breaks
+- Transient (page timeout, sheet click miss): retry once. Do not rewrite instructions.
+- Site or sheet flow changed, and you verified a working step: append it to `lessons.md`.
+- Same failure twice: append one JSON line to `failures.jsonl` with date, step, evidence, and what you did.
+- A hunt file is wrong or contradictory: make a small fix in the hunt file and log it in `autopilot/proposed-instruction-fixes.md`. See AGENTS.md.
+- You may fix `.cursor/autopilot` and this rule when they are the bug. Keep the fix small.
+
+## Hard stop (set continue false, set hard_stop, stop)
+Login, OTP, CAPTCHA, LinkedIn weekly limit, a required answer that is not in Profile/resume, or a referral reply that needs My Decision.
+
+## Do not
+- Do not loosen hunt rules. Follow AGENTS.md.
+- Do not invent salary, visa, skills, or a successful apply.
+- Do not message Sheet1 (do-not-contact) contacts.
+- Do not weaken eligibility, duplicate, or referral rules to make a run look finished.
+- Do not leave `"continue": true` with an empty `next`.

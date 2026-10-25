@@ -1,0 +1,12 @@
+---
+description: Job hunts use Claude in Chrome only. Playwright is removed.
+alwaysApply: true
+---
+
+# Job-hunter browser
+
+Hunts use Claude in Chrome only (see AGENTS.md). Playwright MCP and the Playwright Chrome extension are removed. Do not reinstall them.
+
+- Never type or store passwords. Login, OTP, or CAPTCHA means Needs Login.
+- Resume, tracking sheet, companies list: see `config/me.md`.
+- Hunt markdown fixes follow AGENTS.md (small, logged). Hunt 0/4/5/6 + referral-first / Hunt 2–3 messaging rules unchanged.
